@@ -1,0 +1,43 @@
+:root {
+  --main-background-color: #ffecb7;
+  --header-background-color: #164e63;
+  --footer-background-color: #164e63;
+  --project-background-color: #0e7490;
+  --todo-background-color: #0e7490;
+  --slide-menu-background-color: #164e63;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--main-background-color);
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.log-form {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 600px;
+}
+
+input {
+  width: 200px;
+}
